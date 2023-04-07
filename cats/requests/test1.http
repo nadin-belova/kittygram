@@ -1,0 +1,13 @@
+GET http://127.0.0.1:8000/cats/
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name":"richi",
+    "color":"black",
+    "birth_year":2020
+}
+
